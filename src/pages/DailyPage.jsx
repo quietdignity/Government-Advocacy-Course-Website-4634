@@ -8,7 +8,7 @@ const { FiCheck, FiClock, FiGift, FiShield, FiHeadphones } = FiIcons;
 
 const DailyPage = () => {
   const benefits = [
-    "Save $500 - Your price: $1,497 (Regular: $1,997)",
+    "Save $1,000 - Your price: $997 (Regular: $1,997)",
     "Bonus Audio Module: \"How Journalists Think About Government\"",
     "Special Q&A Access: Monthly calls for Daily Note listeners only",
     "Extended Guarantee: 90 days instead of 60"
@@ -115,6 +115,13 @@ const DailyPage = () => {
               <h2 className="text-3xl font-bold text-slate-900">
                 Limited Time Offer
               </h2>
+            </div>
+            <div className="mb-6">
+              <div className="flex items-center justify-center mb-4">
+                <span className="text-2xl text-slate-500 line-through mr-4">$1,997</span>
+                <span className="text-4xl font-bold text-emerald-600">$997</span>
+              </div>
+              <p className="text-lg text-slate-600">Special Daily Note Listener Price</p>
             </div>
             <p className="text-xl text-slate-700 mb-6">
               This exclusive Daily Note listener discount expires in 7 days.

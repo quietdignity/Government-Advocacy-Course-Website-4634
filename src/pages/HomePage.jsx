@@ -36,7 +36,7 @@ const HomePage = () => {
       <section className="relative bg-gradient-to-br from-emerald-600 via-teal-600 to-slate-700 text-white overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/Hero.jpg" 
+            src="https://images.unsplash.com/photo-1555848962-6e79363ec10f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80" 
             alt="Government building representing civic engagement"
             className="w-full h-full object-cover opacity-20"
           />
@@ -127,7 +127,7 @@ const HomePage = () => {
             <div className="bg-slate-100 p-8 rounded-lg">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
                 <img 
-                  src="/James A. Brown.jpg" 
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" 
                   alt="James A. Brown - Award-winning journalist and government advocacy expert"
                   className="w-full h-full object-cover"
                 />
